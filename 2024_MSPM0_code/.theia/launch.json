@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "2024_H_TI",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "2024_H_TI",
+                "resourceId": "/2024_H_TI"
+            },
+            "connections": [
+                {
+                    "name": "SEGGER J-Link Emulator_0",
+                    "cores": [
+                        {
+                            "name": "CORTEX_M0P",
+                            "debuggerSettings": {
+                                "data": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\" ?>\n<PropertyValues>\n\n  <property id=\"ResetOnRestart\">\n    <curValue>1</curValue>\n  </property>\n\n  <property id=\"HaltOnConnect\">\n    <curValue>1</curValue>\n  </property>\n\n  <property id=\"DisableIntWhileAsmStepping\">\n    <curValue>0</curValue>\n  </property>\n\n</PropertyValues>\n"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
