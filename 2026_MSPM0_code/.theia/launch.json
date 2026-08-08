@@ -1,0 +1,82 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "empty",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "empty",
+                "resourceId": "/empty"
+            },
+            "connections": [
+                {
+                    "name": "Texas Instruments XDS110 USB Debug Probe",
+                    "cores": [
+                        {
+                            "name": "CORTEX_M0P",
+                            "debuggerSettings": {
+                                "data": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\" ?>\n<PropertyValues>\n\n  <property id=\"ResetOnRestart\">\n    <curValue>0</curValue>\n  </property>\n\n  <property id=\"RestartOnSymbolLoad\">\n    <curValue>0</curValue>\n  </property>\n\n  <property id=\"DisableIntWhileAsmStepping\">\n    <curValue>0</curValue>\n  </property>\n\n</PropertyValues>\n"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "SEGGER J-Link Emulator_0",
+                    "cores": [
+                        {
+                            "name": "CORTEX_M0P",
+                            "debuggerSettings": {
+                                "data": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\" ?>\n<PropertyValues/>\n"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "empty (1)",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "empty",
+                "resourceId": "/empty/__ccs_2_generatedBinaries"
+            },
+            "connections": [
+                {
+                    "name": "Texas Instruments XDS110 USB Debug Probe",
+                    "cores": [
+                        {
+                            "name": "CORTEX_M0P",
+                            "debuggerSettings": {
+                                "data": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\" ?>\n<PropertyValues/>\n"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "empty (2)",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "empty",
+                "resourceId": "/empty/__ccs_3_compilerIncludes"
+            },
+            "connections": [
+                {
+                    "name": "Texas Instruments XDS110 USB Debug Probe",
+                    "cores": [
+                        {
+                            "name": "CORTEX_M0P",
+                            "debuggerSettings": {
+                                "data": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\" ?>\n<PropertyValues/>\n"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

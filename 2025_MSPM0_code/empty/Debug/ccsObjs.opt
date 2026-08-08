@@ -1,0 +1,12 @@
+"./empty.o"
+"./ti_msp_dl_config.o"
+"./startup_mspm0g350x_ticlang.o"
+"./Module/OLED/bmp.o"
+"./Module/OLED/oled.o"
+"./Module/OLED/oledfont.o"
+"./Module/command/command.o"
+"./Module/delay/delay.o"
+"./Module/stepper/stepper.o"
+-l"./device_linker.cmd"
+-ldevice.cmd.genlibs
+-llibc.a
